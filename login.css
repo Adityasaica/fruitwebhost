@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+body{
+    font-family: "Josefin Sans", sans-serif;
+}
+.content
+{
+   
+    width:50%;
+    height:600px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.color
+{
+    color:green;
+   
+}
+.login
+{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+
+}
+.forms
+{
+    display:flex;
+    align-items:center;
+    width:50%;
+    justify-content:center;
+    height:100%;
+   
+   
+}
+.interior
+{
+    border:2px solid green;
+    height:400px;
+    width:500px;
+    border-radius:12px;
+}
+.interior h4{
+    background-color:rgb(116, 214, 116);
+    padding:20px;
+    margin-top:0px;
+    text-align:center;
+    border-radius:12px;
+}
+.inputs
+{
+    background-color:lightgreen;
+    border-radius:12px;
+
+}
+legend{
+    font-size:20px;
+    margin:5px;
+}
+input{
+    height:30px;
+    width:80%;
+    border-radius:12px;
+    border:2px solid green;
+    margin:5px;
+
+}
+
+.inp
+{
+    display:flex;
+    justify-content:center;
+}
+.login-button
+{
+    display:flex;
+    justify-content:right;
+    margin-right:10%;
+    
+}
+.but
+{
+    padding:10px 30px;
+    border-radius:20px;
+    background-color:rgb(2, 198, 2);
+    border:2px solid green;
+    transition:background-color 0.5s;
+    font-weight:bold;
+}
+.but:hover{
+    background-color:rgb(95, 253, 95);
+}
+.but:active{
+    background-color:rgb(13, 238, 13);
+}
+header{
+    display:flex;
+    justify-content:center;
+}
+.logo
+{
+    display:flex;
+    align-items:center;
+    font-size:36px;
+
+}
+.boxx
+{
+    color:green;
+}
+.del
+{
+    color:green;
+   
+}
+.logo p{
+    font-size:48px;
+}
+.content p{
+    font-size:48px;
+    
+}
+.content{
+    text-align:center;
+}
+.content h1{
+    margin-right:20%;
+}
+.imga
+{
+    margin-right:200px;
+}
+form p{
+    margin-left:10px;
+}
+a
+{
+    text-decoration:none;
+    color:green;
+}

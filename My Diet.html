@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mydiet.css">
+    <script src="diet.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="heading">
+            My Diet
+        </div>
+        <div class="logo">
+            <a href="index.html" class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="boxx"><path d="M8.132 2.504 4.42 9H3a1.001 1.001 0 0 0-.965 1.263l2.799 10.263A2.004 2.004 0 0 0 6.764 22h10.473c.898 0 1.692-.605 1.93-1.475l2.799-10.263A.998.998 0 0 0 21 9h-1.42l-3.712-6.496-1.736.992L17.277 9H6.723l3.145-5.504-1.736-.992zM14 13h2v5h-2v-5zm-6 0h2v5H8v-5z "/></svg>Delicacy</a>
+        </div>
+        <div class="profile">
+            <img src="27470334_7309681.jpg" alt="profile-image" class="profileimage">
+            <span>Aditya Sai</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m11.998 17 7-8h-14z"/></svg>
+
+           
+        </div>
+    </header>
+    <div class="calculate">
+        <div class="bmi">
+            <p>Bmi Calculator..</p>
+            <form>
+                <div>
+                    <legend>Enter your Weight:</legend>
+                    <input type="number" class="inp" id="weight">
+                </div>
+                <legend>Enter your Height:</legend>
+                <input type="number" class="inp" id="height"> 
+            </form>
+            <button class="sub" onclick="update()">Submit</button>
+        </div>
+        <div class="disp">
+            <p class="displ">22</p>
+        </div>
+    </div>
+    <p id="comment">You are Fit</p>
+    <div class="recomendation">
+        <p class="recomen">Recomendations...</p>
+        <div class="morning">
+            <p class="top">Breakfast:-</p>
+            <div class="display">
+                <div class="item">
+                    <img src="oats.webp" class="item-image" id="mr1">
+                    <div class="item-content">
+                        <p class="head1" id="mrt1">Oats</p>
+                        <p class="des" id="md1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo in deleniti quam maiores tempore libero sint expedita exercitationem magnam adipisci qui ratione aspernatur aliquid assumenda dignissimos, porro fugiat corrupti quae aut officiis nisi officia! Voluptates nihil fugit quod placeat veritatis ducimus id mollitia odio maiores .</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="oats.webp" class="item-image" id="mr2">
+                    <div class="item-content">
+                        <p class="head1" id="mrt2">Oats</p>
+                        <p class="des" id="md2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo in deleniti quam maiores tempore libero sint expedita exercitationem magnam adipisci qui ratione aspernatur aliquid assumenda dignissimos, porro fugiat corrupti quae aut officiis nisi officia! Voluptates nihil fugit quod placeat veritatis ducimus id mollitia odio maiores .</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="oats.webp" class="item-image" id="mr3">
+                    <div class="item-content">
+                        <p class="head1" id="mrt3">Oats</p>
+                        <p class="des" id="md3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo in deleniti quam maiores tempore libero sint expedita exercitationem magnam adipisci qui ratione aspernatur aliquid assumenda dignissimos, porro fugiat corrupti quae aut officiis nisi officia! Voluptates nihil fugit quod placeat veritatis ducimus id mollitia odio maiores .</p>
+                    </div>
+                </div>
+            </div>
+            <div class="afternoon">
+                <p class="top">Lunch:-</p>
+                <div class="display">
+                    <div class="item">
+                        <img src="oats.webp" class="item-image" id="lr1">
+                        <div class="item-content">
+                            <p class="head1" id="lrt1">Oats</p>
+                            <p class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo in deleniti quam maiores tempore libero sint expedita exercitationem magnam adipisci qui ratione aspernatur aliquid assumenda dignissimos, porro fugiat corrupti quae aut officiis nisi officia! Voluptates nihil fugit quod placeat veritatis ducimus id mollitia odio maiores .</p>
+                        </div>
+                    </div>
+    
+                    <div class="item">
+                        <img src="oats.webp" class="item-image" id="lr2">
+                        <div class="item-content">
+                            <p class="head1" id="lrt2">Oats</p>
+                            <p class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo in deleniti quam maiores tempore libero sint expedita exercitationem magnam adipisci qui ratione aspernatur aliquid assumenda dignissimos, porro fugiat corrupti quae aut officiis nisi officia! Voluptates nihil fugit quod placeat veritatis ducimus id mollitia odio maiores .</p>
+                        </div>
+                    </div>
+    
+                    <div class="item">
+                        <img src="oats.webp" class="item-image" id="lr3">
+                        <div class="item-content">
+                            <p class="head1" id="lrt3">Oats</p>
+                            <p class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo in deleniti quam maiores tempore libero sint expedita exercitationem magnam adipisci qui ratione aspernatur aliquid assumenda dignissimos, porro fugiat corrupti quae aut officiis nisi officia! Voluptates nihil fugit quod placeat veritatis ducimus id mollitia odio maiores .</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="evening">
+                    <p class="top">Dinner:-</p>
+                    <div class="display">
+                        <div class="item">
+                            <img src="oats.webp" class="item-image" id="dr1">
+                            <div class="item-content">
+                                <p class="head1" id="drt1">Oats</p>
+                                <p class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo in deleniti quam maiores tempore libero sint expedita exercitationem magnam adipisci qui ratione aspernatur aliquid assumenda dignissimos, porro fugiat corrupti quae aut officiis nisi officia! Voluptates nihil fugit quod placeat veritatis ducimus id mollitia odio maiores .</p>
+                            </div>
+                        </div>
+        
+                        <div class="item">
+                            <img src="oats.webp" class="item-image" id="dr2">
+                            <div class="item-content">
+                                <p class="head1" id="drt2">Oats</p>
+                                <p class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo in deleniti quam maiores tempore libero sint expedita exercitationem magnam adipisci qui ratione aspernatur aliquid assumenda dignissimos, porro fugiat corrupti quae aut officiis nisi officia! Voluptates nihil fugit quod placeat veritatis ducimus id mollitia odio maiores .</p>
+                            </div>
+                        </div>
+        
+                        <div class="item">
+                            <img src="oats.webp" class="item-image" id="dr3">
+                            <div class="item-content">
+                                <p class="head1" id="drt3">Oats</p>
+                                <p class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo in deleniti quam maiores tempore libero sint expedita exercitationem magnam adipisci qui ratione aspernatur aliquid assumenda dignissimos, porro fugiat corrupti quae aut officiis nisi officia! Voluptates nihil fugit quod placeat veritatis ducimus id mollitia odio maiores .</p>
+                            </div>
+                        </div>
+                    </div>
+
+        </div>
+        
+    </div>
+
+
+    
+</body>
+</html>

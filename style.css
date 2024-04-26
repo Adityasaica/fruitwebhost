@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*
+{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+
+
+}
+
+header{
+    position:fixed;
+    width:100%;
+    top:0;
+    right:0;
+    z-index:1000;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color:#ffffff;
+    box-shadow:0px 8px 6px grey;
+    padding:20px 100px;
+    transition:0.5s;
+
+
+
+}
+.img-profile
+{
+    height:40px;
+    width:40px;
+    object-fit:cover;
+    border-radius:50%;
+
+}
+.profile
+{
+    display:flex;
+    align-items:center;
+    gap:2px;
+    cursor:pointer;
+
+}
+
+.profile span{
+    font-size:13px;
+    font-weight:500;
+}
+.logo
+{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:600;
+    font-size:1.1rem;
+    color:rgb(30, 32, 30);;
+    column-gap:0.5rem;
+    text-decoration:none;
+}
+
+.bx{
+    color:lightgreen;
+}
+
+.navbar
+{
+    display:flex;
+    column-gap:1.4rem;
+}
+.navbar a{
+    font-size:1rem;
+    font-weight:500;
+    color:rgb(29, 27, 27);
+    text-decoration:none;
+    padding:0.5rem 1rem;
+    list-style:none;
+    
+}
+
+.navbar a:hover{
+
+    background-color:lightgreen;
+    border-radius:0.5rem;
+    transition: background-color 0.5s;
+
+}
+
+li{
+    list-style-type:none;
+}
+.navbar .home-active
+{
+    background-color:lightgreen;
+    border-radius:0.5rem;
+    transition: background-color 0.5s;
+
+}
+
+.menu-icon
+{
+    font-size:24px;
+    cursor:pointer;
+    display:none;
+}
+
+.home-text
+{
+   
+    height:800px;
+    width:100%;
+    padding:100px;
+    display:flex;
+    justify-content:space-between;
+
+}
+.home-text img{
+
+    border-radius:12px;
+}
+
+
+.btn
+{
+    padding:10px 20px;
+    border-radius:50px;
+    border-style:none;
+    background-color:rgb(6, 212, 6);
+    transition:background-color 0.5s;
+}
+.btn:hover{
+    background-color:lightgreen;
+}
+.shop
+{
+    display:flex;
+    align-items:center;
+    
+}
+.des
+{
+    margin-left:20px;
+}
+.des h2{
+    color:rgb(105, 239, 105);
+}
+.sale-card
+{
+    padding:15px;
+    width:300px;
+    display:flex;
+    flex-direction:column;
+    border:1.5px solid green;
+    height:400px;
+
+    justify-content:space-between;
+    align-items:left;
+    border-radius:15px;
+    transition:background-color 0.5s;
+
+
+}
+.sale-card:hover{
+    background-color:rgb(99, 234, 99);
+    
+}
+.sale-card img{
+    height:250px;
+    width:250px;
+    border-radius:15px;
+    align-self:center;
+
+
+
+}
+.sale-card button{
+
+    width:100px;
+    align-self:flex-end;
+    background-color:green;
+    color:white;
+    font-weight:bold;
+    padding:10px 25px;
+    border-radius:20px;
+    border-style:none;
+    transition: background-color 1px,padding 1s;
+
+}
+.sale-card button:hover{
+    background-color:white;
+    cursor:pointer;
+    color:green;
+    padding: 12px 27px;
+}
+.sale-card h3{
+    color:green;
+}
+.sale-card h4{
+    color:rgb(39, 42, 39);
+}
+
+.dis
+{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    margin-top:70px
+}
+
+.subscription
+{
+    margin-top:50px;
+}
+.sub-text
+{
+    margin-left:20px;
+}
+.sub-text h2{
+    color:lightgreen;
+}
+.display-sub
+{
+    margin-top:50px;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    column-gap:5%;
+}
+.sub-card p{
+    font-size:36px;
+    color:green;
+    
+}
+.sub-card{
+    width:25%;
+    border:1.5px solid rgb(18, 142, 18);
+    padding:15px;
+    height:300px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    row-gap:10px;
+    border-radius:10px;
+}
+.sub-card button{
+
+    align-self:flex-end;
+    padding:5px 30px;
+    border-radius:15px;
+    border-style:none;
+    background-color:green;
+    color:white;
+    font-weight:bold;
+}
+.sub-card h4{
+    align-self:first baseline;
+}
+.sub-card:hover{
+    background-color:lightgreen;
+    color:white;
+
+}
+
+.sub-card button:hover{
+
+    background-color:rgb(12, 151, 12);
+    cursor:pointer;
+    padding:7px 35px;
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+body{
+    background-color:rgb(236,243,230);
+}
+.profile-image
+{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+}
+.profile
+{
+    display:flex;
+    align-items:center;
+    
+}
+header
+{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color:#ffff;
+    box-shadow:5px 5px 12px grey;
+    padding:15px;
+    background-color:lightgreen;
+   
+}
+.logo
+{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+header .cat{
+    color:white;
+    font-size:18px;
+    padding-left:30px;
+
+}
+.display-image
+{
+    height:600px;
+    width:600px;
+    border-radius:15px;
+}
+.left li
+{
+    list-style-type:none;
+    padding:20px;
+    border:2px green solid;
+    width:300px;
+    margin:10px;
+    border-radius:15px;
+    color:#232121;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.left p
+{
+    color:lightgreen;
+    font-size:24px;
+}
+.display{
+    margin-top:50px;
+    display:flex;
+    justify-content:space-between;
+    width:60%;
+}
+.left li:hover{
+
+    background-color:lightgreen;
+    color:white;
+    font-weight:bold;
+}
+.right
+{
+    height:50px;
+    width:50px;
+    padding-right:30px;
+    margin-right:70px;
+}
+
+header a{
+    text-decoration:none;
+    color:#232121;
+}
+.left{
+    margin-left:30px;
+}
